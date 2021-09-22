@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		01D8BCAB3EAD37442BE7958B /* Pods-CNGradient_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNGradient_Example.debug.xcconfig"; path = "Target Support Files/Pods-CNGradient_Example/Pods-CNGradient_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		510D234F870C65017DB22594 /* Pods_CNGradient_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CNGradient_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AC598F105A3C758E6CDEF8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5AC598F105A3C758E6CDEF8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CNGradient_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CNGradient_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		AC57FD81A0D59912D5A75BE2 /* Pods-CNGradient_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNGradient_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CNGradient_Tests/Pods-CNGradient_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C4BD66E0B7D7D7DA63A477AF /* Pods-CNGradient_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNGradient_Example.release.xcconfig"; path = "Target Support Files/Pods-CNGradient_Example/Pods-CNGradient_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D2D3AAAA78C264D74793F159 /* Pods-CNGradient_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNGradient_Tests.release.xcconfig"; path = "Target Support Files/Pods-CNGradient_Tests/Pods-CNGradient_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D88A8B8A95F2E43CD6DF7573 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D88A8B8A95F2E43CD6DF7573 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E9C3998769B7D28395091CF7 /* Pods_CNGradient_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CNGradient_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE3AD1F264447B8A6A9BA5F4 /* CNGradient.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CNGradient.podspec; path = ../CNGradient.podspec; sourceTree = "<group>"; };
+		FE3AD1F264447B8A6A9BA5F4 /* CNGradient.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CNGradient.podspec; path = ../CNGradient.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				AC57FD81A0D59912D5A75BE2 /* Pods-CNGradient_Tests.debug.xcconfig */,
 				D2D3AAAA78C264D74793F159 /* Pods-CNGradient_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

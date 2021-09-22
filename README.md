@@ -1,6 +1,6 @@
 # CNGradient
 
-[![CI Status](https://img.shields.io/travis/yttsecretlisa/CNGradient.svg?style=flat)](https://travis-ci.org/yttsecretlisa/CNGradient)
+[![CI Status](https://img.shields.io/travis/CouchNut/CNGradient.svg?style=flat)](https://travis-ci.org/CouchNut/CNGradient)
 [![Version](https://img.shields.io/cocoapods/v/CNGradient.svg?style=flat)](https://cocoapods.org/pods/CNGradient)
 [![License](https://img.shields.io/cocoapods/l/CNGradient.svg?style=flat)](https://cocoapods.org/pods/CNGradient)
 [![Platform](https://img.shields.io/cocoapods/p/CNGradient.svg?style=flat)](https://cocoapods.org/pods/CNGradient)
@@ -22,7 +22,7 @@ pod 'CNGradient'
 
 ## Author
 
-yttsecretlisa, enamourchen@outlook.com
+CouchNut, yit_copper@163.com
 
 ## License
 

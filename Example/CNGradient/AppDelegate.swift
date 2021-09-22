@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  CNGradient
 //
-//  Created by yttsecretlisa on 09/22/2021.
-//  Copyright (c) 2021 yttsecretlisa. All rights reserved.
+//  Created by CouchNut on 09/22/2021.
+//  Copyright (c) 2021 CouchNut. All rights reserved.
 //
 
 import UIKit

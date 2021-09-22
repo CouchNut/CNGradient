@@ -1,0 +1,6 @@
+framework module CNGradient {
+  umbrella header "CNGradient-umbrella.h"
+
+  export *
+  module * { export * }
+}

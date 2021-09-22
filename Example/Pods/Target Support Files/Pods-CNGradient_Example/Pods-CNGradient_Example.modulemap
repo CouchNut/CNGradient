@@ -1,0 +1,6 @@
+framework module Pods_CNGradient_Example {
+  umbrella header "Pods-CNGradient_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
