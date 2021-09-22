@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0384883AA4B7B86A793958A2E540C9AA /* CNGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9772D77D9142F34363C90129FC349C6F /* CNGradient.swift */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
 		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
@@ -16,12 +17,13 @@
 		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		2ECB1491551C683F59318C8E267C3119 /* Pods-CNGradient_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D0FD6A69741B16BE927DD699AB418CE /* Pods-CNGradient_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		45EC2BB460D0BF25D26BA04E395F5E36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		4820DB4925F533272E37B6C1974954D7 /* Pods-CNGradient_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3C2FC882D86EF53EDB4ED678B9BCE /* Pods-CNGradient_Tests-dummy.m */; };
 		5B2224E793C9E3C2BC8025E2E521DEE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		63A9373B8F4B20BECAF522A2201B5B16 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93678866A8C96A9F23BDED75F2921927 /* ReplaceMe.swift */; };
+		60A771401F7DE082FE99E8F6B1F71459 /* CNGradient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D9F36CC2C2E8CEDB9E5313E307BEC75 /* CNGradient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		754F2499E764F4E2EA7453609B427931 /* CNGradient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87069016B8E24FB785FB045A161AEB14 /* CNGradient-dummy.m */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		8856AEAD1484142ECC5B323765612144 /* CNGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D790D48036EF4711C46A9EF056BA9D /* CNGradientView.swift */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		8ED3863B702A59372FFC76E5FE21C28D /* Pods-CNGradient_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B8F95C53D41438F79021EC0E2851FE /* Pods-CNGradient_Example-dummy.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,41 +34,41 @@
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D140C7B66180BDC8EAAEBC088DA888FE /* CNGradient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D5098B2646C6B3EFC7B9F164D567EA /* CNGradient-dummy.m */; };
-		DD33B7A135D83A9F3EA87B7E6EB6C5E4 /* CNGradient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8FB7EBCC880B2D30C4102C52E795A40 /* CNGradient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4D7226D5FD8430CB8E1594EC41CD102 /* CNGradient+Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F368CF16DD41EE37D265267888554E8 /* CNGradient+Feature.swift */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F2B6259725702AE6D111344F7AF16020 /* Pods-CNGradient_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 407E49C0C01654A152422752A2CD35CB /* Pods-CNGradient_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB82979128D72EB8EF64E2090599E9AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		00F0CDC0A55621F1584B0EF8D0E174DA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
-		};
-		C18E57077E7B72B1AEAA2087EC2BB0F6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5AA2ABC0B3736AE10B4661D02C4564C2;
-			remoteInfo = CNGradient;
-		};
-		D17B5C43BA786752B50A51CB0A67D0C1 /* PBXContainerItemProxy */ = {
+		5062CF185941C836FB9C663FA8A06966 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 35036D609F2EB582DB97853737AD71C9;
 			remoteInfo = "Pods-CNGradient_Example";
 		};
+		6720F051157BEAB1C3C774BC13E80437 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA2ABC0B3736AE10B4661D02C4564C2;
+			remoteInfo = CNGradient;
+		};
+		7B7366830831D3A1C3E9194248F37129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		009BD070F833AFFE44608F24D7E07B0A /* CNGradient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CNGradient.framework; path = CNGradient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		081EBAD5883B12E0A4B64E60D7750C05 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0E0207A0AD23267131809501B92656FD /* CNGradient-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CNGradient-Info.plist"; sourceTree = "<group>"; };
 		0E8DBEF6ED600C62EB6DF4837387C7CC /* Pods-CNGradient_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CNGradient_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		15D49CFF25069A757AE2D447535C5ACB /* Pods-CNGradient_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CNGradient_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -80,67 +82,69 @@
 		2F97FC363B58F17100C3708A2A449E26 /* Pods-CNGradient_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CNGradient_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		3495D4AC7954BED03D34D0DB7DC2E64B /* Pods_CNGradient_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CNGradient_Tests.framework; path = "Pods-CNGradient_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D8B391B07ECA4B498A2EF1CB29E74FD /* CNGradient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CNGradient-prefix.pch"; sourceTree = "<group>"; };
+		398B0E5E73EAFA5CC801F6321A8947D4 /* CNGradient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CNGradient.debug.xcconfig; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		407E49C0C01654A152422752A2CD35CB /* Pods-CNGradient_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CNGradient_Example-umbrella.h"; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		49F01640AAF232A3C53934E1BC0A2E1A /* Pods-CNGradient_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CNGradient_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		4D0FD6A69741B16BE927DD699AB418CE /* Pods-CNGradient_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CNGradient_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4D9F36CC2C2E8CEDB9E5313E307BEC75 /* CNGradient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CNGradient-umbrella.h"; sourceTree = "<group>"; };
 		4EF3C2FC882D86EF53EDB4ED678B9BCE /* Pods-CNGradient_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CNGradient_Tests-dummy.m"; sourceTree = "<group>"; };
+		4F368CF16DD41EE37D265267888554E8 /* CNGradient+Feature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CNGradient+Feature.swift"; path = "CNGradient/Classes/CNGradient+Feature.swift"; sourceTree = "<group>"; };
 		53C204DE9DCCF158BC95B6591B055F5E /* Pods-CNGradient_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CNGradient_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		69B8F95C53D41438F79021EC0E2851FE /* Pods-CNGradient_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CNGradient_Example-dummy.m"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		6C837841ACAD1B55361C0070DF241919 /* CNGradient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CNGradient.modulemap; sourceTree = "<group>"; };
 		7D17841F1BA2236B233F7ECD86D0D3D1 /* Pods-CNGradient_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CNGradient_Example-Info.plist"; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		81235141141A261AFBAD134575956946 /* CNGradient-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CNGradient-Info.plist"; sourceTree = "<group>"; };
-		82D5098B2646C6B3EFC7B9F164D567EA /* CNGradient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CNGradient-dummy.m"; sourceTree = "<group>"; };
+		7FC8101E4F3447CC3373760B4318982A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		823E29B38E4D22F1F114F1EE8F523168 /* CNGradient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CNGradient.modulemap; sourceTree = "<group>"; };
 		8351E51861D7F0129517CD5F914C6269 /* Pods-CNGradient_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CNGradient_Example.release.xcconfig"; sourceTree = "<group>"; };
+		87069016B8E24FB785FB045A161AEB14 /* CNGradient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CNGradient-dummy.m"; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		93678866A8C96A9F23BDED75F2921927 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CNGradient/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		92D790D48036EF4711C46A9EF056BA9D /* CNGradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CNGradientView.swift; path = CNGradient/Classes/CNGradientView.swift; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		9772D77D9142F34363C90129FC349C6F /* CNGradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CNGradient.swift; path = CNGradient/Classes/CNGradient.swift; sourceTree = "<group>"; };
 		980EB97E2453C6FD5D5BDE9D79512B4B /* Pods-CNGradient_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CNGradient_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		9AB86AB0AA9134B1E6F569CEEEE880A4 /* Pods-CNGradient_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CNGradient_Example.modulemap"; sourceTree = "<group>"; };
 		9BB232EF7C235B976BF8252AA616EC4E /* Pods-CNGradient_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CNGradient_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9CC53A84974A4E0741D705C04DD06A6B /* Pods-CNGradient_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CNGradient_Tests-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FED052D07912AA39CAC9F6F13101CA3 /* CNGradient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CNGradient.release.xcconfig; sourceTree = "<group>"; };
-		A8FB7EBCC880B2D30C4102C52E795A40 /* CNGradient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CNGradient-umbrella.h"; sourceTree = "<group>"; };
+		9D941528A063B5C9A8F7BC939A617A71 /* CNGradient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CNGradient-prefix.pch"; sourceTree = "<group>"; };
 		ADCCAB93039AB754BAAAD2822F14B65F /* Pods-CNGradient_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CNGradient_Tests.modulemap"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		B27BD7D63DFF331E34CE557C3CB1E66F /* CNGradient.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CNGradient.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B645852930F5016E18246EF77E6BB8B1 /* CNGradient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CNGradient.release.xcconfig; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		BBF280543C443B39740BC051F4A1D941 /* CNGradient.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CNGradient.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		CFE8BE7EDF5FA16AB9CFD8BFB97B71C7 /* Pods_CNGradient_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CNGradient_Example.framework; path = "Pods-CNGradient_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		DBCAA59C4BEC95E91642FD1678AF9061 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		F9D83EB4EED7D7CC0378655231DFC53B /* CNGradient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CNGradient.debug.xcconfig; sourceTree = "<group>"; };
+		F26B43DE44F8EAAF0DE085DDBA90E434 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2015794CF27DB2C04EAED75E16E0450F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				45EC2BB460D0BF25D26BA04E395F5E36 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A2AEAD73607A2EFF06CDB7E930A4C7C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5B2224E793C9E3C2BC8025E2E521DEE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8A7316DDD4DB7273AB4769CF734A70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB82979128D72EB8EF64E2090599E9AF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,16 +170,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0953C41B9EB28161C8A80AF45EEE72BF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B27BD7D63DFF331E34CE557C3CB1E66F /* CNGradient.podspec */,
-				081EBAD5883B12E0A4B64E60D7750C05 /* LICENSE */,
-				DBCAA59C4BEC95E91642FD1678AF9061 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		1365A3005A64A46E071F2AF405A8757D /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,27 +181,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		14A528E0903970B458394E0B1312CBCC /* Development Pods */ = {
+		48C3E857ADA3A211CC1207FC1CC92CCB /* CNGradient */ = {
 			isa = PBXGroup;
 			children = (
-				CA32ABEE666C46F1C933EFC52C50BA90 /* CNGradient */,
+				9772D77D9142F34363C90129FC349C6F /* CNGradient.swift */,
+				4F368CF16DD41EE37D265267888554E8 /* CNGradient+Feature.swift */,
+				92D790D48036EF4711C46A9EF056BA9D /* CNGradientView.swift */,
+				849826F15CB9C2D7FF769F6CB1CF9CED /* Pod */,
+				F0D7157838BBAD2768A0D27BB6F54865 /* Support Files */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		27335966CCD1DC34427664DC7DBE5F2E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6C837841ACAD1B55361C0070DF241919 /* CNGradient.modulemap */,
-				82D5098B2646C6B3EFC7B9F164D567EA /* CNGradient-dummy.m */,
-				81235141141A261AFBAD134575956946 /* CNGradient-Info.plist */,
-				3D8B391B07ECA4B498A2EF1CB29E74FD /* CNGradient-prefix.pch */,
-				A8FB7EBCC880B2D30C4102C52E795A40 /* CNGradient-umbrella.h */,
-				F9D83EB4EED7D7CC0378655231DFC53B /* CNGradient.debug.xcconfig */,
-				9FED052D07912AA39CAC9F6F13101CA3 /* CNGradient.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CNGradient";
+			name = CNGradient;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
@@ -257,12 +241,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		849826F15CB9C2D7FF769F6CB1CF9CED /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BBF280543C443B39740BC051F4A1D941 /* CNGradient.podspec */,
+				7FC8101E4F3447CC3373760B4318982A /* LICENSE */,
+				F26B43DE44F8EAAF0DE085DDBA90E434 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
 				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		A7296C5D873BC9354E773087F3D4241A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48C3E857ADA3A211CC1207FC1CC92CCB /* CNGradient */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
@@ -299,22 +301,11 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		CA32ABEE666C46F1C933EFC52C50BA90 /* CNGradient */ = {
-			isa = PBXGroup;
-			children = (
-				93678866A8C96A9F23BDED75F2921927 /* ReplaceMe.swift */,
-				0953C41B9EB28161C8A80AF45EEE72BF /* Pod */,
-				27335966CCD1DC34427664DC7DBE5F2E /* Support Files */,
-			);
-			name = CNGradient;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				14A528E0903970B458394E0B1312CBCC /* Development Pods */,
+				A7296C5D873BC9354E773087F3D4241A /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				1365A3005A64A46E071F2AF405A8757D /* Products */,
@@ -347,6 +338,21 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F0D7157838BBAD2768A0D27BB6F54865 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				823E29B38E4D22F1F114F1EE8F523168 /* CNGradient.modulemap */,
+				87069016B8E24FB785FB045A161AEB14 /* CNGradient-dummy.m */,
+				0E0207A0AD23267131809501B92656FD /* CNGradient-Info.plist */,
+				9D941528A063B5C9A8F7BC939A617A71 /* CNGradient-prefix.pch */,
+				4D9F36CC2C2E8CEDB9E5313E307BEC75 /* CNGradient-umbrella.h */,
+				398B0E5E73EAFA5CC801F6321A8947D4 /* CNGradient.debug.xcconfig */,
+				B645852930F5016E18246EF77E6BB8B1 /* CNGradient.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CNGradient";
+			sourceTree = "<group>";
+		};
 		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -361,11 +367,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		125919D105446502E5BEBCA67B36DCA1 /* Headers */ = {
+		02D255B4EA76A06A018E6011882F5648 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD33B7A135D83A9F3EA87B7E6EB6C5E4 /* CNGradient-umbrella.h in Headers */,
+				60A771401F7DE082FE99E8F6B1F71459 /* CNGradient-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +421,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				59D4C0C272E8FD6DBFE631D9B14DDA87 /* PBXTargetDependency */,
+				AD5F382CD930F6A42CBD99A566A41288 /* PBXTargetDependency */,
 			);
 			name = "Pods-CNGradient_Example";
 			productName = "Pods-CNGradient_Example";
@@ -424,12 +430,12 @@
 		};
 		5AA2ABC0B3736AE10B4661D02C4564C2 /* CNGradient */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DA592C691032609605D85B34E15054F /* Build configuration list for PBXNativeTarget "CNGradient" */;
+			buildConfigurationList = 966A5527EEB071970718536CFA038339 /* Build configuration list for PBXNativeTarget "CNGradient" */;
 			buildPhases = (
-				125919D105446502E5BEBCA67B36DCA1 /* Headers */,
-				8ED5FCA0EC18C994E95E3CD6E9A28A82 /* Sources */,
-				2015794CF27DB2C04EAED75E16E0450F /* Frameworks */,
-				EC27F180CC84378406C4E55BF36542CF /* Resources */,
+				02D255B4EA76A06A018E6011882F5648 /* Headers */,
+				479E09E7BC75521CC823B1425EC83850 /* Sources */,
+				BD8A7316DDD4DB7273AB4769CF734A70 /* Frameworks */,
+				945DA249985940A69E827DFDB5D015F2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -452,8 +458,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				B6C89E5E4606FC905EB8C73602FEAEC1 /* PBXTargetDependency */,
-				E5549852C37964CEE9C77214C55E9EC4 /* PBXTargetDependency */,
+				650956128590F65EE2569CF50A5EDB3F /* PBXTargetDependency */,
+				5159D25A7298E99814578A14F825B949 /* PBXTargetDependency */,
 			);
 			name = "Pods-CNGradient_Tests";
 			productName = "Pods-CNGradient_Tests";
@@ -530,7 +536,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC27F180CC84378406C4E55BF36542CF /* Resources */ = {
+		945DA249985940A69E827DFDB5D015F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -548,20 +554,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		479E09E7BC75521CC823B1425EC83850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D7226D5FD8430CB8E1594EC41CD102 /* CNGradient+Feature.swift in Sources */,
+				754F2499E764F4E2EA7453609B427931 /* CNGradient-dummy.m in Sources */,
+				0384883AA4B7B86A793958A2E540C9AA /* CNGradient.swift in Sources */,
+				8856AEAD1484142ECC5B323765612144 /* CNGradientView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		71103F7B74D355D5DEE8C4C2AF566C28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4820DB4925F533272E37B6C1974954D7 /* Pods-CNGradient_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8ED5FCA0EC18C994E95E3CD6E9A28A82 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D140C7B66180BDC8EAAEBC088DA888FE /* CNGradient-dummy.m in Sources */,
-				63A9373B8F4B20BECAF522A2201B5B16 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,23 +592,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		59D4C0C272E8FD6DBFE631D9B14DDA87 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CNGradient;
-			target = 5AA2ABC0B3736AE10B4661D02C4564C2 /* CNGradient */;
-			targetProxy = C18E57077E7B72B1AEAA2087EC2BB0F6 /* PBXContainerItemProxy */;
-		};
-		B6C89E5E4606FC905EB8C73602FEAEC1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 00F0CDC0A55621F1584B0EF8D0E174DA /* PBXContainerItemProxy */;
-		};
-		E5549852C37964CEE9C77214C55E9EC4 /* PBXTargetDependency */ = {
+		5159D25A7298E99814578A14F825B949 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CNGradient_Example";
 			target = 35036D609F2EB582DB97853737AD71C9 /* Pods-CNGradient_Example */;
-			targetProxy = D17B5C43BA786752B50A51CB0A67D0C1 /* PBXContainerItemProxy */;
+			targetProxy = 5062CF185941C836FB9C663FA8A06966 /* PBXContainerItemProxy */;
+		};
+		650956128590F65EE2569CF50A5EDB3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 7B7366830831D3A1C3E9194248F37129 /* PBXContainerItemProxy */;
+		};
+		AD5F382CD930F6A42CBD99A566A41288 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CNGradient;
+			target = 5AA2ABC0B3736AE10B4661D02C4564C2 /* CNGradient */;
+			targetProxy = 6720F051157BEAB1C3C774BC13E80437 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -831,10 +839,11 @@
 			};
 			name = Debug;
 		};
-		5DB5FC286D8450D6616F09604D0CE3E3 /* Debug */ = {
+		7A2CEE74CB0671D654959CFC2FFF0F8A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9D83EB4EED7D7CC0378655231DFC53B /* CNGradient.debug.xcconfig */;
+			baseConfigurationReference = B645852930F5016E18246EF77E6BB8B1 /* CNGradient.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -846,7 +855,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CNGradient/CNGradient-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CNGradient/CNGradient-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CNGradient/CNGradient.modulemap";
 				PRODUCT_MODULE_NAME = CNGradient;
@@ -854,37 +863,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		85B1B3A00BF380EE574A807C9F87DBCA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FED052D07912AA39CAC9F6F13101CA3 /* CNGradient.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CNGradient/CNGradient-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CNGradient/CNGradient-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CNGradient/CNGradient.modulemap";
-				PRODUCT_MODULE_NAME = CNGradient;
-				PRODUCT_NAME = CNGradient;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -985,6 +964,37 @@
 			};
 			name = Release;
 		};
+		CFB3CEFD30498D2D91A7FA0E66842926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 398B0E5E73EAFA5CC801F6321A8947D4 /* CNGradient.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CNGradient/CNGradient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CNGradient/CNGradient-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CNGradient/CNGradient.modulemap";
+				PRODUCT_MODULE_NAME = CNGradient;
+				PRODUCT_NAME = CNGradient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1006,11 +1016,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DA592C691032609605D85B34E15054F /* Build configuration list for PBXNativeTarget "CNGradient" */ = {
+		966A5527EEB071970718536CFA038339 /* Build configuration list for PBXNativeTarget "CNGradient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5DB5FC286D8450D6616F09604D0CE3E3 /* Debug */,
-				85B1B3A00BF380EE574A807C9F87DBCA /* Release */,
+				CFB3CEFD30498D2D91A7FA0E66842926 /* Debug */,
+				7A2CEE74CB0671D654959CFC2FFF0F8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

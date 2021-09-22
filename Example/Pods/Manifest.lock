@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CNGradient: 5bc9f2a49924036481650905e67ac653caeff31d
+  CNGradient: d338ef4abb1cab278ff4a789c358daba2338b4a1
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
 
 PODFILE CHECKSUM: d52ee3a9002d2b81f2c6c88d1000cfd6884af1fc
