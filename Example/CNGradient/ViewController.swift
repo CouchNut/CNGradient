@@ -17,8 +17,11 @@ class ViewController: UIViewController {
         
         let size = CGSize(width: self.view.frame.width - 30, height: 100)
         
-        let gradient = CNGradient()
-
+        CNGradient(
+            .colors([.red, .green]),
+            .type(.conic)
+        )
+        
 //        let gradientView =  CNGradientView()
 //        gradientView.colors = [.red, .purple]
 //        gradientView.startPoint = CGPoint(x: 0, y: 0)

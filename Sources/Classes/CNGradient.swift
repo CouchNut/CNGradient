@@ -19,7 +19,7 @@ public struct CNGradient {
     
     public var endPoint: CGPoint = CGPoint(x: 0.5, y: 1.0)
     
-    public var type: CAGradientLayerType = .axial
+    public var type: CNGradientType = .axial
     
     public var size: CGSize = .zero
     

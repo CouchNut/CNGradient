@@ -6,19 +6,28 @@
 //
 
 import UIKit
+import QuartzCore
 
 extension CNGradient {
     
     public enum Feature {
         case colors([UIColor]?)
+        
         case locations([NSNumber]?)
+        
         case startPoint(CGPoint)
+        
         case endPoint(CGPoint)
-        case type(CAGradientLayerType)
+        
+        case type(CNGradientType)
+        
         case size(CGSize)
+        
         case radius(CGFloat)
+        
         case corners(UIRectCorner)
     }
+    
     
     public init(_ features: Feature...) {
         self.init(features)
@@ -53,7 +62,7 @@ extension CNGradient {
             
         case let .corners(corners):
             self.corners = corners
-        
+            
         case let .radius(radius):
             self.radius = radius
             

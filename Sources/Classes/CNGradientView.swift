@@ -7,8 +7,14 @@
 
 import UIKit
 
+public enum CNGradientType: Int {
+    case axial   = 1
+    case radial  = 2
+    case conic   = 3
+}
+
 open class CNGradientView: UIView {
-    
+
     open override class var layerClass: AnyClass { return CAGradientLayer.self }
     
     private var gradientLayer: CAGradientLayer { return self.layer as! CAGradientLayer }
@@ -37,9 +43,18 @@ open class CNGradientView: UIView {
         }
     }
     
-    open var type: CAGradientLayerType = .axial {
+    open var type: CNGradientType = .axial {
         willSet {
-            self.gradientLayer.type = newValue
+            var type: CAGradientLayerType
+            switch newValue {
+            case .axial:
+                type = .axial
+            case .conic:
+                type = .conic
+            case .radial:
+                type = .radial
+            }
+            self.gradientLayer.type = type
         }
     }
     
