@@ -289,10 +289,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CNGradient_Example/Pods-CNGradient_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CNGradient/CNGradient.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CNGradient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

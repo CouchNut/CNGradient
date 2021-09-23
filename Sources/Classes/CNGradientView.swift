@@ -7,55 +7,55 @@
 
 import UIKit
 
-class CNGradientView: UIView {
+open class CNGradientView: UIView {
     
-    override class var layerClass: AnyClass { return CAGradientLayer.self }
+    open override class var layerClass: AnyClass { return CAGradientLayer.self }
     
     private var gradientLayer: CAGradientLayer { return self.layer as! CAGradientLayer }
     
-    var colors: [UIColor]? {
+    open var colors: [UIColor]? {
         willSet {
             self.gradientLayer.colors = newValue?.map({ return $0.cgColor })
         }
     }
     
-    var locations: [NSNumber]? {
+    open var locations: [NSNumber]? {
         willSet {
             self.gradientLayer.locations = newValue
         }
     }
     
-    var startPoint: CGPoint = CGPoint(x: 0.5, y: 0) {
+    open var startPoint: CGPoint = CGPoint(x: 0.5, y: 0) {
         willSet {
             self.gradientLayer.startPoint = newValue
         }
     }
     
-    var endPoint: CGPoint = CGPoint(x: 0.5, y: 1.0) {
+    open var endPoint: CGPoint = CGPoint(x: 0.5, y: 1.0) {
         willSet {
             self.gradientLayer.endPoint = newValue
         }
     }
     
-    var type: CAGradientLayerType = .axial {
+    open var type: CAGradientLayerType = .axial {
         willSet {
             self.gradientLayer.type = newValue
         }
     }
     
-    var radius: CGFloat = 0 {
+    open var radius: CGFloat = 0 {
         willSet {
             self.setNeedsDisplay()
         }
     }
     
-    var corners: UIRectCorner = .allCorners {
+    open var corners: UIRectCorner = .allCorners {
         willSet {
             self.setNeedsDisplay()
         }
     }
     
-    override func draw(_ rect: CGRect) {
+    open override func draw(_ rect: CGRect) {
         let path = UIBezierPath(roundedRect: rect, byRoundingCorners: self.corners, cornerRadii: CGSize(width: self.radius, height: self.radius))
         
         let shapeLayer = CAShapeLayer()
@@ -70,7 +70,7 @@ extension CNGradientView {
     
     /// 生成一张图片
     /// - Returns: 图片
-    func generateImage() -> UIImage {
+    open func asImage() -> UIImage {
         let format = UIGraphicsImageRendererFormat()
         format.scale = UIScreen.main.scale
         let render = UIGraphicsImageRenderer(bounds: self.bounds, format: format)

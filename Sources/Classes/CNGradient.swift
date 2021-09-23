@@ -7,25 +7,27 @@
 
 import UIKit
 
-struct CNGradient {
+public struct CNGradient {
     
-    var colors: [UIColor]?
+    public var colors: [UIColor]?
     
     /// locations 数组并不是强求的，但是如果要给它赋值，一定要确定该数组大小和 colors 的数组大小一样
     /// 否则可能会得到一个空白的渐变
-    var locations: [NSNumber]?
+    public var locations: [NSNumber]?
     
-    var startPoint: CGPoint = CGPoint(x: 0.5, y: 0)
+    public var startPoint: CGPoint = CGPoint(x: 0.5, y: 0)
     
-    var endPoint: CGPoint = CGPoint(x: 0.5, y: 1.0)
+    public var endPoint: CGPoint = CGPoint(x: 0.5, y: 1.0)
     
-    var type: CAGradientLayerType = .axial
+    public var type: CAGradientLayerType = .axial
     
-    var size: CGSize = .zero
+    public var size: CGSize = .zero
     
-    var radius: CGFloat = 0
+    public var radius: CGFloat = 0
     
-    var corners: UIRectCorner = .allCorners
+    public var corners: UIRectCorner = .allCorners
+    
+    public init() {}
     
 }
 
@@ -45,28 +47,27 @@ extension CNGradient {
         return result
     }
     
-    func generateColor() -> UIColor {
-        let image = self.generateImage()
+    public func asColor() -> UIColor {
+        let image = self.asImage()
         return UIColor(patternImage: image)
     }
     
-    func generateImage() -> UIImage {
-        return self.gradientView().generateImage()
+    public func asImage() -> UIImage {
+        return self.gradientView().asImage()
     }
     
 }
 
 // MARK: - UIImage
 extension UIImage {
-    static func gradient(_ gradient: PLFGradient) -> UIImage {
-        return gradient.generateImage()
+    public static func gradient(_ gradient: CNGradient) -> UIImage {
+        return gradient.asImage()
     }
 }
 
 // MARK: - UIColor
 extension UIColor {
-    static func gradient(_ gradient: PLFGradient) -> UIColor {
-        return gradient.generateColor()
+    public static func gradient(_ gradient: CNGradient) -> UIColor {
+        return gradient.asColor()
     }
 }
-

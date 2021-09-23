@@ -1,27 +1,31 @@
 PODS:
-  - CNGradient (0.1.0)
+  - CNGradient (1.0.2)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - SnapKit (5.0.1)
 
 DEPENDENCIES:
   - CNGradient (from `../`)
   - FBSnapshotTestCase (~> 2.1.4)
+  - SnapKit
 
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
+    - SnapKit
 
 EXTERNAL SOURCES:
   CNGradient:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CNGradient: d338ef4abb1cab278ff4a789c358daba2338b4a1
+  CNGradient: 81f5e1f48a93ce1ae595040c01af254685395fe6
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: d52ee3a9002d2b81f2c6c88d1000cfd6884af1fc
+PODFILE CHECKSUM: 342b6889fc5ba8933de4137b84204114e7db574a
 
 COCOAPODS: 1.10.1

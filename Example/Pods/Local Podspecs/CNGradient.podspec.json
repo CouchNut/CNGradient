@@ -1,7 +1,8 @@
 {
   "name": "CNGradient",
-  "version": "0.1.0",
+  "version": "1.0.2",
   "summary": "A simple and convenient gradient tool.",
+  "swift_versions": "5.0",
   "description": "Generate a gradient color, image, background easily and quickly",
   "homepage": "https://github.com/CouchNut/CNGradient",
   "license": {
@@ -13,12 +14,11 @@
   },
   "source": {
     "git": "https://github.com/CouchNut/CNGradient.git",
-    "tag": "0.1.0"
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "12.0"
   },
-  "source_files": "CNGradient/Classes/**/*",
-  "swift_versions": "5.0",
+  "source_files": "Sources/Classes/**/*",
   "swift_version": "5.0"
 }
