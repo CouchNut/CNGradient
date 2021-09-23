@@ -70,18 +70,14 @@ extension CNGradientView {
     
     /// 生成一张图片
     /// - Returns: 图片
-    func generateImage() -> UIImage? {
-        defer {
-            UIGraphicsEndImageContext()
+    func generateImage() -> UIImage {
+        let format = UIGraphicsImageRendererFormat()
+        format.scale = UIScreen.main.scale
+        let render = UIGraphicsImageRenderer(bounds: self.bounds, format: format)
+        let image = render.image { context in
+            self.gradientLayer.render(in: context.cgContext)
         }
-        
-        UIGraphicsBeginImageContextWithOptions(self.bounds.size, false, UIScreen.main.scale)
-        
-        guard let context = UIGraphicsGetCurrentContext() else { return nil }
-        self.gradientLayer.render(in: context)
-        
-        guard let result = UIGraphicsGetImageFromCurrentImageContext() else { return nil }
-        return result
+        return image
     }
     
 }

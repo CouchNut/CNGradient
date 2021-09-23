@@ -45,14 +45,12 @@ extension CNGradient {
         return result
     }
     
-    func generateColor() -> UIColor? {
-        guard let image = self.generateImage() else {
-            return nil
-        }
+    func generateColor() -> UIColor {
+        let image = self.generateImage()
         return UIColor(patternImage: image)
     }
     
-    func generateImage() -> UIImage? {
+    func generateImage() -> UIImage {
         return self.gradientView().generateImage()
     }
     
@@ -60,14 +58,14 @@ extension CNGradient {
 
 // MARK: - UIImage
 extension UIImage {
-    static func gradient(_ gradient: CNGradient) -> UIImage? {
+    static func gradient(_ gradient: PLFGradient) -> UIImage {
         return gradient.generateImage()
     }
 }
 
 // MARK: - UIColor
 extension UIColor {
-    static func gradient(_ gradient: CNGradient) -> UIColor? {
+    static func gradient(_ gradient: PLFGradient) -> UIColor {
         return gradient.generateColor()
     }
 }
