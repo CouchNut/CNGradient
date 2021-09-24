@@ -28,7 +28,6 @@ extension CNGradient {
         case corners(UIRectCorner)
     }
     
-    
     public init(_ features: Feature...) {
         self.init(features)
     }
@@ -38,6 +37,18 @@ extension CNGradient {
         for feature in features {
             update(feature: feature)
         }
+    }
+    
+    public func byAdding(_ features: Feature...) -> CNGradient {
+        return byAdding(features)
+    }
+    
+    func byAdding(_ features: [Feature]) -> CNGradient {
+        var gradient = self
+        for feature in features {
+            gradient.update(feature: feature)
+        }
+        return gradient
     }
     
     mutating func update(feature: Feature) {

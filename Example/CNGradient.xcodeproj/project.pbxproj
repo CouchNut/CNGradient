@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A9B45FB26FD765600CB1B93 /* UIColor+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9B45FA26FD765600CB1B93 /* UIColor+Gradient.swift */; };
 		31A5AD6EA05A937C7AEC8276 /* Pods_CNGradient_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 510D234F870C65017DB22594 /* Pods_CNGradient_Tests.framework */; };
 		5EAEEC2D1704C3285F1E49B9 /* Pods_CNGradient_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C3998769B7D28395091CF7 /* Pods_CNGradient_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		01D8BCAB3EAD37442BE7958B /* Pods-CNGradient_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNGradient_Example.debug.xcconfig"; path = "Target Support Files/Pods-CNGradient_Example/Pods-CNGradient_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1A9B45FA26FD765600CB1B93 /* UIColor+Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Gradient.swift"; sourceTree = "<group>"; };
 		510D234F870C65017DB22594 /* Pods_CNGradient_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CNGradient_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC598F105A3C758E6CDEF8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CNGradient_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CNGradient_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +95,7 @@
 		607FACD21AFB9204008FA782 /* Example for CNGradient */ = {
 			isa = PBXGroup;
 			children = (
+				1A9B45FA26FD765600CB1B93 /* UIColor+Gradient.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -353,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				1A9B45FB26FD765600CB1B93 /* UIColor+Gradient.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
